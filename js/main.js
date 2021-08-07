@@ -209,7 +209,14 @@
 
 ////// exercise: 18 //////
 
-
+var userNumber = Number(prompt("enter a number"));
+var modulo = 0;
+while(userNumber>0){
+  modulo = userNumber%10;
+  userNumber = userNumber/10;
+  userNumber = parseInt(userNumber);
+  console.log(modulo);
+}
 
 
 
